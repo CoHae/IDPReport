@@ -10,7 +10,7 @@ VLXTpie(dataset)
 \item{dataset}{A dataset}
 }
 \value{
-a pie graphs
+a pie graph
 }
 \description{
 Displays VLXT as pie graph
