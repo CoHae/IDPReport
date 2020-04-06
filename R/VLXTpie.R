@@ -1,7 +1,7 @@
 #' Displays VLXT as pie graph
 #'
 #' @param dataset A dataset
-#' @return a pie graphs
+#' @return a pie graph
 #' @examples
 #' VLXTpie(TPRdataset)
 
