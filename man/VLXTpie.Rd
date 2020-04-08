@@ -7,7 +7,7 @@
 VLXTpie(dataset)
 }
 \arguments{
-\item{dataset}{A dataset}
+\item{dataset}{A dataset containing the numeric column VLXT (values 0-100)}
 }
 \value{
 a pie graph

@@ -1,6 +1,6 @@
 #' Displays VLXT as pie graph
 #'
-#' @param dataset A dataset
+#' @param dataset A dataset containing the numeric column VLXT (values 0-100)
 #' @return a pie graph
 #' @examples
 #' VLXTpie(TPRdataset)
