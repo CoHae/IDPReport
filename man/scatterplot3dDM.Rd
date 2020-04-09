@@ -16,5 +16,5 @@ scatterplot3dDM(dataset)
 3 Dimensional Scatterplot for VLXT, VSL2 and PONDRFIT incl Disease and/or Mutagenesis Distinction
 }
 \examples{
-scatterpl3dDM(TPRdataset)
+scatterplot3dDM(TPRdataset)
 }

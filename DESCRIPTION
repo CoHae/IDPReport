@@ -8,8 +8,7 @@ Description: Analyzing Intrinsically Disordered Proteins using the common
     disorder predictors VLXT, VSL2 and the meta predictor PONDRFIT. This package
     will produce graphs to visually compare the distribution and the extend of
     disorder in a given group of proteins
-Depends: 
-  R,
+Depends: R (>= 3.1.0),
   base2grob,
   ggplot2,
   ggplotify,

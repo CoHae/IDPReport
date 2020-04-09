@@ -3,7 +3,7 @@
 #' @param dataset A dataset with columns VLXT, VSL2, PONDRFIT and DM
 #' @return 3 dimensional scatterplot
 #' @examples
-#' scatterpl3dDM(TPRdataset)
+#' scatterplot3dDM(TPRdataset)
 
 
 scatterplot3dDM <- function(dataset) {
