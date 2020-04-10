@@ -1,0 +1,29 @@
+---
+title: "IDPReportVignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{IDPReportVignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(IDPReport)
+```
+## Package IDPAnalysis 
+# Tools to visualize the Degree and Distribution of Intrinsic Disorder in Proteins
+The package IDPReport provides a number of functions that will give a visual analysis of the Percent Disorder Score of the common disorder predictors VLXT, VSL2 and PONDRFIT.  
+This package will compare where the output of the three predictors fall into the three categories "Ordered", "Moderately Disordered" or "Highly Disordered". It will show the frequency and relative frequency distribution of disorder within the analyzed group of proteins and it will show a three-dimensional scatterplot of the Percent Disorder Score of the proteins. The three-dimensional scatterplot will also show disease and/or mutagenesis association of the input dataset.  
+Each line of the input dataset represents one protein and has to include three columns named "VLXT", "VSL2" and "PONDRFIT" representing the Percent Disorder Score of the three disorder predictors. The package will expect this numeric data to be provided in the form as it is produced by the corresponding applications 
+http://www.PONDR.com/                        respectively 
+http://original.disprot.org/pondr-fit.php  
+
+Namely PONDR will provide the percent value of disorder of VXLT and VSL2 as a numeric value between 1 and 100. The PONDR-FIT percentage value on the other hand is given by its application as a numeric between 0 and 1.  
+The function scatterplot3dDM of the package requires in addition to the three numericals named above a column named DM which contains the distinction of a disease/mutagenesis association of the proteins in the form of input character values of 0/D/M/DM.
