@@ -25,5 +25,6 @@ Each line of the input dataset represents one protein and has to include three c
 http://www.PONDR.com/                        respectively 
 http://original.disprot.org/pondr-fit.php  
 
-Namely PONDR will provide the percent value of disorder of VXLT and VSL2 as a numeric value between 1 and 100. The PONDR-FIT percentage value on the other hand is given by its application as a numeric between 0 and 1.  
-The function scatterplot3dDM of the package requires in addition to the three numericals named above a column named DM which contains the distinction of a disease/mutagenesis association of the proteins in the form of input character values of 0/D/M/DM.
+Namely PONDR will provide the percent value of disorder of VXLT and VSL2 as a numeric value between 0 and 100. The PONDR-FIT percentage value on the other hand is given by its application as a numeric between 0 and 1.  
+The function scatterplot3dDM of the package requires, in addition to the three numericals named above, a column named DM which contains the distinction of a disease/mutagenesis association of the proteins in the form of input character values of 0/D/M/DM.  
+The package includes dataset "TPRdataset" with data for Tetratricopeptide Repeat Proteins 
